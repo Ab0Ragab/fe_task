@@ -1,0 +1,53 @@
+.c-users-list {
+  display: table;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #dcdee3;
+
+  .c-users-list__header {
+    display: table-row;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #e5e9f1;
+    white-space: nowrap;
+    position: sticky;
+    top: 55px;
+    > div {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 15px;
+      border: 1px solid #dcdee3;
+    }
+  }
+
+  .c-users-list__body {
+    display: table-row;
+    height: 64px;
+
+    > div {
+      display: table-cell;
+      padding: 0 8px;
+      vertical-align: middle;
+      border: 0.5px solid #dcdee3;
+      text-align: center;
+    }
+  }
+
+  .c-users-list__avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+
+  .c-users-list__main-info {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.highlighted{
+  background-color: yellow;
+}
